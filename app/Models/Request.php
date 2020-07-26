@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace App\Models;
 
 /**
@@ -10,7 +12,7 @@ class Request
     /** @var string $name */
     private $name;
 
-    /** @var string $phone */
+    /** @var int $phone */
     private $phone;
 
     /** @var string $message */
